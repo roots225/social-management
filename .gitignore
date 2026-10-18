@@ -1,0 +1,27 @@
+# Rust
+target/
+**/*.rs.bk
+Cargo.lock
+
+# Node / Vite
+node_modules/
+dist/
+dist-ssr/
+*.local
+.npm
+
+# Environnement et secrets
+.env
+.env.local
+.env.*.local
+
+# OS et éditeurs
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docker volumes locaux
+mongodb_data/
